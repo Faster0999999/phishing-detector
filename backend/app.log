@@ -1,0 +1,1851 @@
+2025-05-24 21:16:29,161 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 21:16:29,162 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 21:16:36,731 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 95, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:16:37,425 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:16:37] "POST / HTTP/1.1" 200 -
+2025-05-24 21:17:11,003 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 95, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:17:11,755 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:17:11] "POST / HTTP/1.1" 200 -
+2025-05-24 21:24:09,141 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 95, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:24:09,772 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:24:09] "POST / HTTP/1.1" 200 -
+2025-05-24 21:24:35,223 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 95, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:24:35,821 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:24:35] "POST / HTTP/1.1" 200 -
+2025-05-24 21:25:06,295 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 21:25:06,295 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 21:25:11,036 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 95, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:25:12,034 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:25:12] "POST / HTTP/1.1" 200 -
+2025-05-24 21:34:18,757 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 95, in query_virustotal
+    for attempt in range(app.config['MAX_SCAN_RETRIES']):
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:34:19,398 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:34:19] "POST / HTTP/1.1" 200 -
+2025-05-24 21:35:05,037 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 95, in query_virustotal
+    for attempt in range(app.config['MAX_SCAN_RETRIES']):
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:35:05,735 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:35:05] "POST / HTTP/1.1" 200 -
+2025-05-24 21:37:03,774 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 95, in query_virustotal
+    for attempt in range(app.config['MAX_SCAN_RETRIES']):
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:37:04,424 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:37:04] "POST / HTTP/1.1" 200 -
+2025-05-24 21:38:31,494 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 21:38:31,495 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 21:38:33,419 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:38:33,963 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:38:33] "POST / HTTP/1.1" 200 -
+2025-05-24 21:41:29,931 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:41:30,788 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:41:30] "POST / HTTP/1.1" 200 -
+2025-05-24 21:41:56,146 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:41:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-24 21:48:28,456 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:48:29,365 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:48:29] "POST / HTTP/1.1" 200 -
+2025-05-24 21:48:41,094 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 21:48:41,094 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 21:48:45,862 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:48:46,606 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 224, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\base.html", line 168, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 80, in block 'content'
+    {{ result.virustotal.stats.malicious }}/{{ result.virustotal.stats.harmless + result.virustotal.stats.malicious + result.virustotal.stats.suspicious + result.virustotal.stats.undetected }}
+    ^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 21:48:46,635 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:48:46] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 21:48:56,753 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:48:57,514 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 224, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 1, in top-level template code
+    <!DOCTYPE html>
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\base.html", line 168, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 80, in block 'content'
+    .nav-links a {
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 21:48:57,540 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:48:57] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 21:49:05,221 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 21:49:05,221 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 21:49:11,102 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:49:11,615 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:49:11] "POST / HTTP/1.1" 200 -
+2025-05-24 21:52:41,739 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:52:42,601 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:52:42] "POST / HTTP/1.1" 200 -
+2025-05-24 21:52:49,854 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 21:52:49,855 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 21:52:52,607 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:52:53,252 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 224, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 780, in top-level template code
+    document.getElementById('maliciousCount').textContent = '{{ result.virustotal.stats.malicious }}';
+    ^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 21:52:53,255 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:52:53] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 21:55:22,566 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:55:23,189 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 224, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 780, in top-level template code
+    document.getElementById('maliciousCount').textContent = '{{ result.virustotal.stats.malicious }}';
+    ^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 21:55:23,193 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:55:23] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 21:55:29,888 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 21:55:29,888 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 21:55:31,186 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:55:31,876 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 224, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 780, in top-level template code
+    document.getElementById('maliciousCount').textContent = '{{ result.virustotal.stats.malicious }}';
+    ^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 21:55:31,880 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:55:31] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 21:55:35,409 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:55:36,166 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 224, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 780, in top-level template code
+    document.getElementById('maliciousCount').textContent = '{{ result.virustotal.stats.malicious }}';
+    ^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 21:55:36,168 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:55:36] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 21:55:55,604 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 21:55:55,604 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 21:55:57,744 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 21:55:58,428 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 21:55:58] "POST / HTTP/1.1" 200 -
+2025-05-24 22:06:39,519 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:06:39,520 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:06:42,590 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:06:43,255 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:06:43] "POST / HTTP/1.1" 200 -
+2025-05-24 22:06:48,054 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:06:48,586 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:06:48] "POST / HTTP/1.1" 200 -
+2025-05-24 22:07:35,615 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:07:35,615 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:07:38,931 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:07:39,640 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:07:39] "POST / HTTP/1.1" 200 -
+2025-05-24 22:10:25,724 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:10:25,725 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:10:28,838 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:10:29,547 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:10:29] "POST / HTTP/1.1" 200 -
+2025-05-24 22:15:36,494 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:15:36,494 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:15:39,560 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:15:40,476 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:15:40] "POST / HTTP/1.1" 200 -
+2025-05-24 22:29:16,490 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:29:16,490 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:29:19,735 - __main__ - ERROR - Error in query_virustotal: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 51, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 92, in query_virustotal
+    raise RuntimeError("VirusTotal API key not set. Please set VT_API_KEY in environment variables.")
+RuntimeError: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+2025-05-24 22:29:20,616 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:29:20] "POST / HTTP/1.1" 200 -
+2025-05-24 22:29:42,608 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:29:42,608 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:29:44,311 - __main__ - ERROR - Error in query_virustotal: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 51, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 92, in query_virustotal
+    raise RuntimeError("VirusTotal API key not set. Please set VT_API_KEY in environment variables.")
+RuntimeError: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+2025-05-24 22:29:45,261 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 220, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:29:45,264 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:29:45] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:30:02,301 - __main__ - ERROR - Error in query_virustotal: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 51, in wrapper
+    if request:
+           ^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 92, in query_virustotal
+    )
+    
+RuntimeError: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+2025-05-24 22:30:03,207 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 220, in home
+    "error": "Request must be JSON",
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:30:03,211 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:30:03] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:30:06,685 - __main__ - ERROR - Error in query_virustotal: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 51, in wrapper
+    if request:
+           ^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 92, in query_virustotal
+    )
+    
+RuntimeError: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+2025-05-24 22:30:07,533 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 220, in home
+    "error": "Request must be JSON",
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:30:07,535 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:30:07] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:30:12,296 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:30:12,296 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:30:14,070 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:30:14,910 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:30:14,914 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:30:14] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:30:17,076 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:30:17,763 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:30:17,766 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:30:17] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:30:19,345 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:30:19,974 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:30:19,977 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:30:19] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:31:04,262 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:31:04,263 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:31:10,601 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:31:11,374 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:31:11,377 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:31:11] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:32:12,263 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:32:12,264 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:32:12,265 - werkzeug - INFO -  * Restarting with stat
+2025-05-24 22:32:12,896 - werkzeug - WARNING -  * Debugger is active!
+2025-05-24 22:32:12,899 - werkzeug - INFO -  * Debugger PIN: 541-429-322
+2025-05-24 22:32:14,513 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:32:15,282 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:32:15] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:32:15,345 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:32:15] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-24 22:32:15,354 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:32:15] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-24 22:32:15,428 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:32:15] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=MwKyhtNWnr0958HFJU9V HTTP/1.1" 200 -
+2025-05-24 22:32:15,451 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:32:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-24 22:33:17,946 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Walid\\Desktop\\phishing-detector\\backend\\app.py', reloading
+2025-05-24 22:33:18,028 - werkzeug - INFO -  * Restarting with stat
+2025-05-24 22:33:28,132 - __main__ - ERROR - Error in query_virustotal: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 51, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 92, in query_virustotal
+    raise RuntimeError("VirusTotal API key not set. Please set VT_API_KEY in environment variables.")
+RuntimeError: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+2025-05-24 22:33:29,105 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 220, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 226, in top-level template code
+    <p>Malicious: {{ result.virustotal.stats.malicious }}</p>
+    ^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:33:29,110 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:33:29] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:33:43,334 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:33:43,335 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:33:44,687 - __main__ - ERROR - Error in query_virustotal: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 51, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 92, in query_virustotal
+    raise RuntimeError("VirusTotal API key not set. Please set VT_API_KEY in environment variables.")
+RuntimeError: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+2025-05-24 22:33:45,574 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:33:45] "POST / HTTP/1.1" 200 -
+2025-05-24 22:34:22,021 - __main__ - ERROR - Error in query_virustotal: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 51, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 92, in query_virustotal
+    raise RuntimeError("VirusTotal API key not set. Please set VT_API_KEY in environment variables.")
+RuntimeError: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+2025-05-24 22:34:23,049 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:34:23] "POST / HTTP/1.1" 200 -
+2025-05-24 22:34:53,856 - __main__ - ERROR - Error in query_virustotal: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 51, in wrapper
+    if request:
+           ^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 92, in query_virustotal
+    )
+    
+RuntimeError: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+2025-05-24 22:34:54,750 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:34:54] "POST / HTTP/1.1" 200 -
+2025-05-24 22:39:27,234 - __main__ - ERROR - Error in query_virustotal: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 51, in wrapper
+    if request:
+           ^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 92, in query_virustotal
+    )
+    
+RuntimeError: VirusTotal API key not set. Please set VT_API_KEY in environment variables.
+2025-05-24 22:39:28,178 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:39:28] "POST / HTTP/1.1" 200 -
+2025-05-24 22:44:08,007 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:44:08,007 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:44:15,524 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:44:15] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-05-24 22:44:29,635 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:44:29] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-05-24 22:44:49,175 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:44:49,175 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:44:50,055 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:44:50,968 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:44:50,972 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:44:50] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:45:03,163 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:45:03,774 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    .engine-result {
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:45:03,798 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:45:03] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:45:13,412 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:45:14,166 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    .engine-result {
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:45:14,169 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:45:14] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:45:22,138 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:45:22,877 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    .engine-result {
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:45:22,880 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:45:22] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:45:57,733 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:45:58,429 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:45:58,454 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:45:58] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:46:20,139 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:46:20,861 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:46:20,865 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:46:20] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:46:26,136 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:46:26,136 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:46:34,502 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:46:35,298 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:46:35,301 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:46:35] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:46:37,430 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:46:38,131 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:46:38,133 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:46:38] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:49:21,286 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:49:22,126 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:49:22,129 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:49:22] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:50:39,134 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:50:39,940 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:50:39,945 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:50:39] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:50:44,212 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:50:44,213 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:50:46,481 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:50:46,968 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:50:46,972 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:50:46] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:50:48,334 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:50:49,106 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+    {{ result.virustotal.stats.malicious }} out of
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:50:49,108 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:50:49] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:51:12,186 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:51:12,802 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 352, in top-level template code
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:51:12,808 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:51:12] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:51:17,575 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:51:17,576 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:51:19,625 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:51:20,222 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 226, in top-level template code
+    <p>Malicious: {{ result.virustotal.stats.malicious }}</p>
+    ^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:51:20,227 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:51:20] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:51:21,540 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:51:22,250 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 197, in home
+    return render_template("index.html", result=result)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\templates\index.html", line 226, in top-level template code
+    <p>Malicious: {{ result.virustotal.stats.malicious }}</p>
+    ^^^^^^^^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'stats'
+2025-05-24 22:51:22,252 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:51:22] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-05-24 22:52:14,739 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 22:52:14,740 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 22:52:17,746 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 22:52:18,587 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 22:52:18] "POST / HTTP/1.1" 200 -
+2025-05-24 23:59:17,790 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-24 23:59:17,790 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 23:59:31,267 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-24 23:59:32,052 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 23:59:32] "POST / HTTP/1.1" 200 -
+2025-05-24 23:59:32,631 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 23:59:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-25 00:13:11,124 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-25 00:13:11,124 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 00:13:15,746 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:13:16,405 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:13:16] "POST / HTTP/1.1" 200 -
+2025-05-25 00:13:26,958 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:13:27,680 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:13:27] "POST / HTTP/1.1" 200 -
+2025-05-25 00:13:30,329 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:13:31,213 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:13:31] "POST / HTTP/1.1" 200 -
+2025-05-25 00:15:07,425 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:15:08,158 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:15:08] "POST / HTTP/1.1" 200 -
+2025-05-25 00:18:04,868 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-25 00:18:04,869 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 00:18:04,871 - INFO -  * Restarting with stat
+2025-05-25 00:18:05,479 - WARNING -  * Debugger is active!
+2025-05-25 00:18:05,481 - INFO -  * Debugger PIN: 541-429-322
+2025-05-25 00:18:09,625 - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 42, in decorated
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 78, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:18:10,342 - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 42, in decorated
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 129, in analyze_url
+    vt_result = vt.result()
+  File "C:\Users\Walid\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Walid\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 45, in decorated
+    return render_template("index.html", result={
+        "status": "error",
+        "error": str(e)
+    })
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 148, in render_template
+    app = current_app._get_current_object()  # type: ignore[attr-defined]
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-05-25 00:18:10,403 - INFO - 127.0.0.1 - - [25/May/2025 00:18:10] "POST / HTTP/1.1" 200 -
+2025-05-25 00:31:22,972 - INFO -  * Detected change in 'C:\\Users\\Walid\\Desktop\\phishing-detector\\backend\\app.py', reloading
+2025-05-25 00:31:23,061 - INFO -  * Restarting with stat
+2025-05-25 00:31:56,962 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-25 00:31:56,963 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 00:32:00,753 - __main__ - ERROR - Network error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:32:01,788 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:32:01] "POST / HTTP/1.1" 200 -
+2025-05-25 00:32:49,698 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:32:49] "POST / HTTP/1.1" 200 -
+2025-05-25 00:32:52,375 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-25 00:32:52,376 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 00:32:52,377 - INFO -  * Restarting with stat
+2025-05-25 00:32:52,994 - WARNING -  * Debugger is active!
+2025-05-25 00:32:52,997 - INFO -  * Debugger PIN: 541-429-322
+2025-05-25 00:32:55,281 - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 42, in decorated
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 78, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:32:56,032 - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 42, in decorated
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 129, in analyze_url
+    vt_result = vt.result()
+  File "C:\Users\Walid\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Walid\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 45, in decorated
+    return render_template("index.html", result={
+        "status": "error",
+        "error": str(e)
+    })
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\flask\templating.py", line 148, in render_template
+    app = current_app._get_current_object()  # type: ignore[attr-defined]
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-05-25 00:32:56,040 - INFO - 127.0.0.1 - - [25/May/2025 00:32:56] "POST / HTTP/1.1" 200 -
+2025-05-25 00:36:19,390 - INFO -  * Detected change in 'C:\\Users\\Walid\\Desktop\\phishing-detector\\backend\\app.py', reloading
+2025-05-25 00:36:19,475 - INFO -  * Restarting with stat
+2025-05-25 00:44:43,798 - WARNING -  * Debugger is active!
+2025-05-25 00:44:43,801 - INFO -  * Debugger PIN: 541-429-322
+2025-05-25 00:44:46,881 - INFO -  * Detected change in 'C:\\Users\\Walid\\Desktop\\phishing-detector\\backend\\app.py', reloading
+2025-05-25 00:44:49,772 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:44:50,710 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:44:50] "POST / HTTP/1.1" 200 -
+2025-05-25 00:44:52,294 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:44:53,019 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:44:53] "POST / HTTP/1.1" 200 -
+2025-05-25 00:50:36,511 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:50:37,286 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:50:37] "POST / HTTP/1.1" 200 -
+2025-05-25 00:53:22,927 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    }
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:53:23,681 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:53:23] "POST / HTTP/1.1" 200 -
+2025-05-25 00:53:55,950 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    }
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:53:56,915 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:53:56] "POST / HTTP/1.1" 200 -
+2025-05-25 00:55:37,242 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    }
+    
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:55:37,899 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:55:37] "POST / HTTP/1.1" 200 -
+2025-05-25 00:56:59,091 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 00:56:59,715 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 00:56:59] "POST / HTTP/1.1" 200 -
+2025-05-25 01:31:32,625 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-25 01:31:32,625 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 01:31:33,823 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:31:33] "GET / HTTP/1.1" 200 -
+2025-05-25 01:33:24,253 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:33:24] "GET / HTTP/1.1" 200 -
+2025-05-25 01:33:25,312 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:33:25] "GET / HTTP/1.1" 200 -
+2025-05-25 01:33:42,217 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-25 01:33:42,217 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 01:33:44,153 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:33:44] "GET / HTTP/1.1" 200 -
+2025-05-25 01:33:46,632 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:33:46] "GET / HTTP/1.1" 200 -
+2025-05-25 01:33:47,131 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:33:47] "GET / HTTP/1.1" 200 -
+2025-05-25 01:35:02,316 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-25 01:35:02,316 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 01:35:07,715 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 01:35:08,609 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:35:08] "POST / HTTP/1.1" 200 -
+2025-05-25 01:35:44,723 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-25 01:35:44,723 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 01:35:47,047 - __main__ - ERROR - Error in query_virustotal: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+Traceback (most recent call last):
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 48, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\app.py", line 93, in query_virustotal
+    scan_response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Walid\Desktop\phishing-detector\backend\venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.virustotal.com/api/v3/urls
+2025-05-25 01:35:47,657 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:35:47] "POST / HTTP/1.1" 200 -
+2025-05-25 01:36:38,597 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:38] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:39,794 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:39] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:42,057 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:42] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:42,546 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:42] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:43,098 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:43] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:43,308 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:43] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:43,468 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:43] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:43,640 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:43] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:43,773 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:43] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:44,314 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:44] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:46,296 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:46] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:36:55,397 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:36:55] "GET / HTTP/1.1" 200 -
+2025-05-25 01:40:57,280 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:40:57] "GET / HTTP/1.1" 200 -
+2025-05-25 01:55:28,037 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:55:28] "GET / HTTP/1.1" 200 -
+2025-05-25 01:55:37,218 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-25 01:55:37,219 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 01:55:46,127 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:55:46] "GET / HTTP/1.1" 200 -
+2025-05-25 01:55:49,993 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:55:49] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:55:50,669 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:55:50] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:55:50,819 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:55:50] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:55:50,969 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:55:50] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:55:51,125 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:55:51] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:55:58,765 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:55:58] "GET / HTTP/1.1" 200 -
+2025-05-25 01:56:03,046 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:56:03] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:56:03,542 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:56:03] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:56:03,701 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:56:03] "[33mPOST /scan/url HTTP/1.1[0m" 404 -
+2025-05-25 01:56:03,856 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 01:56:03] "[33mPOST /scan/url HTTP/1.1[0m" 404 -

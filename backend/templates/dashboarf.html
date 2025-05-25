@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h3><i class="bi bi-speedometer2 me-2"></i> Dashboard</h3>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-success">
+                        <h4><i class="bi bi-person-check me-2"></i> Welcome, {{ session.username }}!</h4>
+                        <p class="mb-0">You're now logged in to UltimateScanner</p>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100">
+                                <div class="card-header bg-info text-white">
+                                    <h5><i class="bi bi-file-earmark-arrow-up me-2"></i> File Scan</h5>
+                                </div>
+                                <div class="card-body">
+                                    <form id="fileScanForm" enctype="multipart/form-data">
+                                        <div class="mb-3">
+                                            <label for="fileInput" class="form-label">Select a file to scan</label>
+                                            <input class="form-control" type="file" id="fileInput" name="file" required>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary w-100">
+                                            <i class="bi bi-search me-2"></i> Scan File
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100">
+                                <div class="card-header bg-warning text-dark">
+                                    <h5><i class="bi bi-link-45deg me-2"></i> URL Scan</h5>
+                                </div>
+                                <div class="card-body">
+                                    <form id="urlScanForm">
+                                        <div class="mb-3">
+                                            <label for="urlInput" class="form-label">Enter URL to scan</label>
+                                            <input type="text" class="form-control" id="urlInput" placeholder="https://example.com" required>
+                                        </div>
+                                        <button type="submit" class="btn btn-warning w-100">
+                                            <i class="bi bi-search me-2"></i> Scan URL
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-4">
+                        <div class="card-header bg-secondary text-white">
+                            <h5><i class="bi bi-clock-history me-2"></i> Recent Scans</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="scanHistory">
+                                <p class="text-muted">No scans yet. Perform your first scan!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Handle file scan form submission
+document.getElementById('fileScanForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const fileInput = document.getElementById('fileInput');
+    if (!fileInput.files.length) {
+        alert('Please select a file first');
+        return;
+    }
+
+    const formData = new FormData();
+    formData.append('file', fileInput.files[0]);
+
+    // Show loading state
+    const submitBtn = this.querySelector('button[type="submit"]');
+    submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status"></span> Scanning...';
+    submitBtn.disabled = true;
+
+    fetch('/scan/file', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert(`Scan completed: ${data.status}`);
+        // You can update the scan history here
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Scan failed. Please try again.');
+    })
+    .finally(() => {
+        submitBtn.innerHTML = '<i class="bi bi-search me-2"></i> Scan File';
+        submitBtn.disabled = false;
+    });
+});
+
+// Handle URL scan form submission
+document.getElementById('urlScanForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const url = document.getElementById('urlInput').value.trim();
+    if (!url) {
+        alert('Please enter a URL');
+        return;
+    }
+
+    // Show loading state
+    const submitBtn = this.querySelector('button[type="submit"]');
+    submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status"></span> Scanning...';
+    submitBtn.disabled = true;
+
+    fetch('/scan/url', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `url=${encodeURIComponent(url)}`
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert(`Scan completed: ${data.status}`);
+        // You can update the scan history here
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Scan failed. Please try again.');
+    })
+    .finally(() => {
+        submitBtn.innerHTML = '<i class="bi bi-search me-2"></i> Scan URL';
+        submitBtn.disabled = false;
+    });
+});
+</script>
+{% endblock %}

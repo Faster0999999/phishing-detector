@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltimateScanner - Premium Threat Detection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        :root {
+            --primary: #6c5ce7;
+            --primary-dark: #5649c0;
+            --danger: #ff7675;
+            --success: #00b894;
+            --warning: #fdcb6e;
+            --dark: #2d3436;
+            --light: #f5f6fa;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: #1a1a2e;
+            color: #e6e6e6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .navbar-brand {
+            font-weight: 800;
+            font-size: 1.8rem;
+            background: linear-gradient(90deg, var(--primary), #a29bfe);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        }
+        
+        .scan-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+            transition: all 0.3s ease;
+        }
+        
+        .scan-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.25);
+        }
+        
+        .nav-tabs .nav-link {
+            color: #b2b2b2;
+            border: none;
+            font-weight: 600;
+            padding: 12px 20px;
+        }
+        
+        .nav-tabs .nav-link.active {
+            color: var(--primary);
+            background: transparent;
+            border-bottom: 3px solid var(--primary);
+        }
+        
+        .detection-badge {
+            font-size: 1.2rem;
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-weight: 700;
+        }
+        
+        .status-malicious {
+            background: rgba(255, 118, 117, 0.15);
+            color: var(--danger);
+        }
+        
+        .status-suspicious {
+            background: rgba(253, 203, 110, 0.15);
+            color: var(--warning);
+        }
+        
+        .status-clean {
+            background: rgba(0, 184, 148, 0.15);
+            color: var(--success);
+        }
+        
+        .engine-result {
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+        
+        .result-malicious {
+            background: rgba(255, 118, 117, 0.15);
+            color: var(--danger);
+        }
+        
+        .result-clean {
+            background: rgba(0, 184, 148, 0.15);
+            color: var(--success);
+        }
+        
+        .result-undetected {
+            background: rgba(178, 178, 178, 0.15);
+            color: #b2b2b2;
+        }
+        
+        .threat-card {
+            background: rgba(255, 118, 117, 0.08);
+            border-left: 4px solid var(--danger);
+            border-radius: 8px;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--primary);
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-bottom: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: 2px solid #1a1a2e;
+        }
+        
+        .file-upload-area {
+            border: 2px dashed rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            transition: all 0.3s;
+        }
+        
+        .file-upload-area:hover {
+            border-color: var(--primary);
+            background: rgba(108, 92, 231, 0.05);
+        }
+        
+        .file-upload-area.dragover {
+            border-color: var(--success);
+            background: rgba(0, 184, 148, 0.05);
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(108, 92, 231, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(108, 92, 231, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(108, 92, 231, 0); }
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="gradient-bg">
+    <!-- Animated Background -->
+    <div class="position-fixed w-100 h-100" style="z-index: -1; overflow: hidden;">
+        <div class="position-absolute" style="top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(108, 92, 231, 0.1) 0%, rgba(0, 0, 0, 0) 70%);"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container py-3">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-shield-lock-fill me-2"></i>UltimateScanner
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="bi bi-house-door me-1"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-search me-1"></i> Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-graph-up me-1"></i> Statistics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-collection me-1"></i> Threat Intel</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#apiModal">
+                        <i class="bi bi-code-slash me-1"></i> API
+                    </button>
+                    <button class="btn btn-primary pulse-animation">
+                        <i class="bi bi-person-plus me-1"></i> Sign Up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4 animate__animated animate__fadeInDown">Advanced Threat <span class="text-primary">Detection</span></h1>
+                    <p class="lead mb-4 animate__animated animate__fadeIn animate__delay-1s">
+                        Analyze suspicious files, URLs, and domains with our cutting-edge security platform powered by AI and global threat intelligence.
+                    </p>
+                    <div class="d-flex gap-3 animate__animated animate__fadeIn animate__delay-2s">
+                        <button class="btn btn-primary btn-lg">
+                            <i class="bi bi-lightning-charge-fill me-2"></i> Quick Scan
+                        </button>
+                        <button class="btn btn-outline-light btn-lg">
+                            <i class="bi bi-play-circle me-2"></i> Watch Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 animate__animated animate__fadeInRight">
+                    <div class="scan-card p-4">
+                        <ul class="nav nav-tabs mb-4" id="scanTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="file-tab" data-bs-toggle="tab" data-bs-target="#file" type="button">
+                                    <i class="bi bi-file-earmark-binary me-1"></i> FILE
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="url-tab" data-bs-toggle="tab" data-bs-target="#url" type="button">
+                                    <i class="bi bi-link-45deg me-1"></i> URL
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="domain-tab" data-bs-toggle="tab" data-bs-target="#domain" type="button">
+                                    <i class="bi bi-globe me-1"></i> DOMAIN
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content py-3">
+                            <!-- File Scan Tab -->
+                            <div class="tab-pane fade show active" id="file" role="tabpanel">
+                                <div id="fileUploadArea" class="file-upload-area p-5 text-center mb-4">
+                                    <i class="bi bi-cloud-arrow-up display-4 text-muted mb-3"></i>
+                                    <h5>Drag & Drop Files Here</h5>
+                                    <p class="text-muted">or click to browse (max. 32MB)</p>
+                                    <input type="file" id="fileInput" class="d-none">
+                                    <button class="btn btn-outline-light mt-3" onclick="document.getElementById('fileInput').click()">
+                                        <i class="bi bi-folder2-open me-1"></i> Choose File
+                                    </button>
+                                </div>
+                                <div class="form-text mb-3 glass-effect p-3 rounded">
+                                    <i class="bi bi-shield-lock me-1"></i> By submitting data, you agree to our <a href="#" class="text-primary">Terms</a>. We may make sample submissions public when necessary.
+                                </div>
+                                <button id="scanFileBtn" class="btn btn-primary w-100 py-3">
+                                    <i class="bi bi-shield-check me-2"></i> SCAN FILE
+                                </button>
+                            </div>
+                            
+                            <!-- URL Scan Tab -->
+                            <div class="tab-pane fade" id="url" role="tabpanel">
+                                <div class="mb-4">
+                                    <input type="text" class="form-control form-control-lg" id="urlInput" placeholder="https://example.com">
+                                </div>
+                                <button id="scanUrlBtn" class="btn btn-primary w-100 py-3">
+                                    <i class="bi bi-link-45deg me-2"></i> SCAN URL
+                                </button>
+                            </div>
+                            
+                            <!-- Domain Scan Tab -->
+                            <div class="tab-pane fade" id="domain" role="tabpanel">
+                                <div class="mb-4">
+                                    <input type="text" class="form-control form-control-lg" id="domainInput" placeholder="example.com">
+                                </div>
+                                <button id="scanDomainBtn" class="btn btn-primary w-100 py-3">
+                                    <i class="bi bi-globe me-2"></i> SCAN DOMAIN
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="resultsSection" class="py-5" style="display: none;">
+        <div class="container">
+            <div class="scan-card p-4 mb-5">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 class="mb-0">
+                        <i class="bi bi-shield-check text-primary me-2"></i> Scan Results
+                    </h3>
+                    <span id="scanDate" class="text-muted"></span>
+                </div>
+                
+                <!-- Detection Summary -->
+                <div class="alert mb-4 glass-effect" id="detectionAlert">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h4 class="alert-heading mb-2" id="detectionTitle"></h4>
+                            <div class="d-flex align-items-center">
+                                <span id="detectionText" class="me-3"></span>
+                                <span class="badge detection-badge" id="detectionBadge"></span>
+                            </div>
+                        </div>
+                        <button class="btn btn-sm btn-outline-light" id="shareBtn">
+                            <i class="bi bi-share me-1"></i> Share
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Threat Timeline -->
+                <div class="mb-4">
+                    <h5 class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-clock-history text-primary me-2"></i> Threat Timeline
+                    </h5>
+                    <div class="timeline glass-effect p-4 rounded">
+                        <div class="timeline-item">
+                            <h6>First Seen</h6>
+                            <p class="text-muted mb-0" id="firstSeen">2023-01-10</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h6>Last Detected</h6>
+                            <p class="text-muted mb-0" id="lastDetected">2023-06-15</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h6>Current Status</h6>
+                            <p class="text-muted mb-0" id="currentStatus">Active</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Details Section -->
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <h5 class="mb-3 d-flex align-items-center">
+                            <i class="bi bi-info-circle text-primary me-2"></i> Details
+                        </h5>
+                        <div class="table-responsive">
+                            <table class="table table-borderless" id="detailsTable">
+                                <tbody>
+                                    <!-- Filled by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="mb-3 d-flex align-items-center">
+                            <i class="bi bi-graph-up text-primary me-2"></i> Threat Indicators
+                        </h5>
+                        <div id="threatIndicators">
+                            <!-- Filled by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Engine Results -->
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="mb-0 d-flex align-items-center">
+                            <i class="bi bi-shield-check text-primary me-2"></i> Detection Engines
+                        </h5>
+                        <small class="text-muted" id="enginesCount">0/0 detected</small>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-borderless" id="enginesTable">
+                            <thead>
+                                <tr>
+                                    <th>Engine</th>
+                                    <th>Result</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Filled by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Threat Intelligence -->
+                <div>
+                    <h5 class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-globe text-primary me-2"></i> Threat Intelligence
+                    </h5>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="threat-card p-3 h-100">
+                                <h6><i class="bi bi-exclamation-triangle-fill text-danger me-2"></i> Related Threats</h6>
+                                <ul class="mb-0" id="relatedThreats">
+                                    <li>TrickBot Malware</li>
+                                    <li>BazarLoader Campaign</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="threat-card p-3 h-100">
+                                <h6><i class="bi bi-collection-fill text-warning me-2"></i> IoCs Found</h6>
+                                <ul class="mb-0" id="iocsFound">
+                                    <li>C2 Server: 192.168.1.1</li>
+                                    <li>Domain: malicious.example.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Advanced Analysis -->
+            <div class="scan-card p-4">
+                <h4 class="mb-4">
+                    <i class="bi bi-magic text-primary me-2"></i> Advanced Analysis
+                </h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="glass-effect p-3 h-100 rounded">
+                            <h6><i class="bi bi-file-earmark-binary text-info me-2"></i> File Behavior</h6>
+                            <div class="progress mb-2" style="height: 6px;">
+                                <div class="progress-bar bg-info" style="width: 75%"></div>
+                            </div>
+                            <small class="text-muted">Suspicious activities detected</small>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="glass-effect p-3 h-100 rounded">
+                            <h6><i class="bi bi-link-45deg text-success me-2"></i> Network Activity</h6>
+                            <div class="progress mb-2" style="height: 6px;">
+                                <div class="progress-bar bg-success" style="width: 45%"></div>
+                            </div>
+                            <small class="text-muted">Moderate network connections</small>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="glass-effect p-3 h-100 rounded">
+                            <h6><i class="bi bi-shield-lock text-warning me-2"></i> Threat Score</h6>
+                            <div class="progress mb-2" style="height: 6px;">
+                                <div class="progress-bar bg-warning" style="width: 85%"></div>
+                            </div>
+                            <small class="text-muted">High risk threat detected</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5 bg-dark">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Advanced Threat Protection</h2>
+                <p class="lead text-muted">Powered by cutting-edge security technologies</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="scan-card h-100 p-4">
+                        <div class="icon-square bg-primary bg-opacity-10 text-primary rounded-circle mb-3 d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <i class="bi bi-shield-lock fs-3"></i>
+                        </div>
+                        <h4>Real-time Scanning</h4>
+                        <p>Instant analysis of files and URLs using multiple antivirus engines and AI algorithms.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="scan-card h-100 p-4">
+                        <div class="icon-square bg-success bg-opacity-10 text-success rounded-circle mb-3 d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <i class="bi bi-globe fs-3"></i>
+                        </div>
+                        <h4>Global Threat Intel</h4>
+                        <p>Access to the latest threat intelligence feeds from around the world.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="scan-card h-100 p-4">
+                        <div class="icon-square bg-info bg-opacity-10 text-info rounded-circle mb-3 d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <i class="bi bi-graph-up-arrow fs-3"></i>
+                        </div>
+                        <h4>Behavioral Analysis</h4>
+                        <p>Advanced detection of suspicious behavior patterns and zero-day threats.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Modal -->
+    <div class="modal fade" id="apiModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content scan-card border-0">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">
+                        <i class="bi bi-code-slash text-primary me-2"></i> API Documentation
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Integrate our scanning capabilities directly into your applications with our powerful API.</p>
+                    
+                    <div class="mb-4">
+                        <h6>Scan a File</h6>
+                        <pre class="bg-dark p-3 rounded"><code>POST /api/scan/file
+Headers:
+- Authorization: Bearer YOUR_API_KEY
+- Content-Type: multipart/form-data
+
+Body:
+- file: [binary file data]</code></pre>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h6>Scan a URL</h6>
+                        <pre class="bg-dark p-3 rounded"><code>POST /api/scan/url
+Headers:
+- Authorization: Bearer YOUR_API_KEY
+- Content-Type: application/json
+
+Body:
+{
+    "url": "https://example.com"
+}</code></pre>
+                    </div>
+                    
+                    <div class="alert alert-info">
+                        <i class="bi bi-key-fill me-2"></i> Get your API key from the <a href="#" class="text-primary">Dashboard</a> after signing up.
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Get API Key</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-auto py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <h5>UltimateScanner</h5>
+                    <p class="text-muted">Advanced threat detection platform for security professionals.</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Product</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Features</a></li>
+                        <li><a href="#" class="text-decoration-none">Pricing</a></li>
+                        <li><a href="#" class="text-decoration-none">API</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Documentation</a></li>
+                        <li><a href="#" class="text-decoration-none">Threat Reports</a></li>
+                        <li><a href="#" class="text-decoration-none">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-decoration-none">Careers</a></li>
+                        <li><a href="#" class="text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="mb-3 mb-md-0">
+                    <p class="mb-0 text-muted">© 2023 UltimateScanner. All rights reserved.</p>
+                </div>
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-decoration-none"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-decoration-none"><i class="bi bi-github"></i></a>
+                    <a href="#" class="text-decoration-none"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // File upload drag and drop
+        const fileUploadArea = document.getElementById('fileUploadArea');
+        const fileInput = document.getElementById('fileInput');
+        
+        fileUploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            fileUploadArea.classList.add('dragover');
+        });
+        
+        fileUploadArea.addEventListener('dragleave', () => {
+            fileUploadArea.classList.remove('dragover');
+        });
+        
+        fileUploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            fileUploadArea.classList.remove('dragover');
+            if (e.dataTransfer.files.length) {
+                fileInput.files = e.dataTransfer.files;
+            }
+        });
+        
+        // Scan functions
+        document.getElementById('scanFileBtn').addEventListener('click', scanFile);
+        document.getElementById('scanUrlBtn').addEventListener('click', scanUrl);
+        document.getElementById('scanDomainBtn').addEventListener('click', scanDomain);
+        
+        function scanFile() {
+            const file = fileInput.files[0];
+            if (!file) {
+                alert('Please select a file first');
+                return;
+            }
+            
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            document.getElementById('scanFileBtn').innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status"></span> Scanning...';
+            
+            fetch('/scan/file', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                displayResults(data);
+                document.getElementById('scanFileBtn').innerHTML = '<i class="bi bi-shield-check me-2"></i> SCAN FILE';
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('scanFileBtn').innerHTML = '<i class="bi bi-shield-check me-2"></i> SCAN FILE';
+            });
+        }
+        
+        function scanUrl() {
+            const url = document.getElementById('urlInput').value.trim();
+            if (!url) {
+                alert('Please enter a URL');
+                return;
+            }
+            
+            document.getElementById('scanUrlBtn').innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status"></span> Scanning...';
+            
+            fetch('/scan/url', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `url=${encodeURIComponent(url)}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                displayResults(data);
+                document.getElementById('scanUrlBtn').innerHTML = '<i class="bi bi-link-45deg me-2"></i> SCAN URL';
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('scanUrlBtn').innerHTML = '<i class="bi bi-link-45deg me-2"></i> SCAN URL';
+            });
+        }
+        
+        function scanDomain() {
+            const domain = document.getElementById('domainInput').value.trim();
+            if (!domain) {
+                alert('Please enter a domain');
+                return;
+            }
+            
+            // For demo purposes, we'll treat domain scan same as URL scan
+            document.getElementById('scanDomainBtn').innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status"></span> Scanning...';
+            
+            fetch('/scan/url', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `url=https://${domain}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                displayResults(data);
+                document.getElementById('scanDomainBtn').innerHTML = '<i class="bi bi-globe me-2"></i> SCAN DOMAIN';
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('scanDomainBtn').innerHTML = '<i class="bi bi-globe me-2"></i> SCAN DOMAIN';
+            });
+        }
+        
+        function displayResults(data) {
+            if (data.error) {
+                alert(data.error);
+                return;
+            }
+            
+            // Show results section
+            document.getElementById('resultsSection').style.display = 'block';
+            
+            // Set scan date
+            document.getElementById('scanDate').textContent = new Date().toLocaleString();
+            
+            // Set detection summary
+            const detectionAlert = document.getElementById('detectionAlert');
+            const detectionBadge = document.getElementById('detectionBadge');
+            
+            if (data.status === 'malicious') {
+                detectionAlert.className = 'alert mb-4 glass-effect';
+                detectionBadge.className = 'badge detection-badge status-malicious';
+            } else if (data.status === 'suspicious') {
+                detectionAlert.className = 'alert mb-4 glass-effect';
+                detectionBadge.className = 'badge detection-badge status-suspicious';
+            } else {
+                detectionAlert.className = 'alert mb-4 glass-effect';
+                detectionBadge.className = 'badge detection-badge status-clean';
+            }
+            
+            document.getElementById('detectionTitle').textContent = data.status.charAt(0).toUpperCase() + data.status.slice(1);
+            document.getElementById('detectionText').textContent = `${data.detection} security vendors flagged this as malicious`;
+            document.getElementById('detectionBadge').textContent = data.detection.split('/')[0];
+            
+            // Fill details table
+            const detailsTable = document.getElementById('detailsTable');
+            detailsTable.innerHTML = '';
+            
+            for (const [key, value] of Object.entries(data.analysis)) {
+                const row = document.createElement('tr');
+                
+                if (typeof value === 'object' && value !== null) {
+                    row.innerHTML = `<th scope="row">${key}</th><td><pre class="mb-0">${JSON.stringify(value, null, 2)}</pre></td>`;
+                } else {
+                    row.innerHTML = `<th scope="row">${key}</th><td>${value || 'N/A'}</td>`;
+                }
+                
+                detailsTable.appendChild(row);
+            }
+            
+            // Fill threat indicators
+            const threatIndicators = document.getElementById('threatIndicators');
+            threatIndicators.innerHTML = '';
+            
+            if (data.analysis.content_analysis) {
+                for (const [key, value] of Object.entries(data.analysis.content_analysis)) {
+                    const indicator = document.createElement('div');
+                    indicator.className = 'mb-2';
+                    indicator.innerHTML = `
+                        <div class="d-flex justify-content-between">
+                            <span>${key.replace('_', ' ')}</span>
+                            <span class="badge bg-primary rounded-pill">${value}</span>
+                        </div>
+                        <div class="progress" style="height: 4px;">
+                            <div class="progress-bar" style="width: ${Math.min(100, value * 20)}%"></div>
+                        </div>
+                    `;
+                    threatIndicators.appendChild(indicator);
+                }
+            }
+            
+            // Fill engines table
+            const enginesTable = document.getElementById('enginesTable').querySelector('tbody');
+            enginesTable.innerHTML = '';
+            
+            let detectedCount = 0;
+            let totalCount = 0;
+            
+            for (const [engine, result] of Object.entries(data.engines)) {
+                const row = document.createElement('tr');
+                
+                let resultClass = 'result-undetected';
+                if (result === 'malicious') {
+                    resultClass = 'result-malicious';
+                    detectedCount++;
+                } else if (result === 'clean') {
+                    resultClass = 'result-clean';
+                }
+                totalCount++;
+                
+                row.innerHTML = `
+                    <td>${engine}</td>
+                    <td><span class="engine-result ${resultClass}">${result}</span></td>
+                    <td><button class="btn btn-sm btn-outline-light">Details</button></td>
+                `;
+                enginesTable.appendChild(row);
+            }
+            
+            document.getElementById('enginesCount').textContent = `${detectedCount}/${totalCount} detected`;
+            
+            // Scroll to results
+            document.getElementById('resultsSection').scrollIntoView({ behavior: 'smooth' });
+            
+            // Initialize charts
+            initCharts(data);
+        }
+        
+        function initCharts(data) {
+            // Threat score chart
+            const ctx = document.createElement('canvas');
+            ctx.id = 'threatChart';
+            document.getElementById('threatIndicators').prepend(ctx);
+            
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Malicious', 'Suspicious', 'Clean'],
+                    datasets: [{
+                        data: [65, 20, 15],
+                        backgroundColor: [
+                            '#ff7675',
+                            '#fdcb6e',
+                            '#00b894'
+                        ],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    cutout: '70%',
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

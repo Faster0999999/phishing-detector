@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - URL Scanner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Copy the same styles from index.html */
+        :root {
+            --primary: #1976d2;
+            --primary-dark: #1565c0;
+            /* ... rest of your CSS variables */
+        }
+        /* Include all CSS from index.html */
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-shield-virus"></i>
+                <span>URLScanner</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="/search"><i class="fas fa-search"></i> Search</a></li>
+                <li><a href="/statistics"><i class="fas fa-chart-bar"></i> Statistics</a></li>
+                <li><a href="/settings"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="/recent"><i class="fas fa-history"></i> Recent</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <h1>Search Scans</h1>
+            <form class="scan-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search by URL, domain or IP">
+                </div>
+                <button type="submit" class="btn btn-block">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 URLScanner. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
